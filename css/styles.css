@@ -1,14 +1,13 @@
  body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #fff;
-  color: #2e2f42;
+    color: #434455;
   }
   p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+    letter-spacing: 0.02em; 
   }
 nav a, address a, footer a {
  text-decoration: none;
@@ -40,12 +39,19 @@ h3 {
 }
 
 /* nav */
-address a {
+.address .a-link {
   font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.address .a-link:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
 }
 .nav-link a {
   font-weight: 500;
@@ -58,13 +64,15 @@ address a {
 address a:hover {
   color: #404bbf;
 }
-.nav-studio:active {
+.nav-studio:active,
+.nav-studio:focus {
   color: #404bbf;
 }
 .webstudio {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -73,12 +81,16 @@ address a:hover {
   color: #2e2f42;
 }
 
+.slogan-title {
+  line-height: 1.07;
+}
 .slogan {
   background: #2e2f42;
   width: 1440px;
     height: 600px;
 }
-.slogan button {
+.slogan-button {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
@@ -92,13 +104,34 @@ address a:hover {
   width: 169px;
   height: 56px;
 }
+.slogan-button:hover,
+.slogan-button:focus
+ {
+  background-color: #404BBF;
+}
+.our-team-text {
+  font-size: 16px;
+}
+
+.our-team {
+  background-color: #F4F4FD;
+}
+.our-team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+.our-team-li {
+  background-color: #FFFFFF;
+}
 
 
 
 .portfolio-title{
   font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
