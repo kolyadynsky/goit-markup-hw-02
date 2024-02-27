@@ -86,8 +86,8 @@ h3 {
 }
 .slogan {
   background: #2e2f42;
-  width: 1440px;
-    height: 600px;
+  /* width: 1440px; */
+    /* height: 600px; */
 }
 .slogan-button {
   font-family: "Roboto", sans-serif;
@@ -101,8 +101,8 @@ h3 {
   color: #fff;
   border-radius: 4px;
   /* padding: 16px 32px; */
-  width: 169px;
-  height: 56px;
+  /* width: 169px;
+  height: 56px; */
 }
 .slogan-button:hover,
 .slogan-button:focus
@@ -125,9 +125,9 @@ h3 {
 .our-team-li {
   background-color: #FFFFFF;
 }
-.our-team img {
+/* .our-team img {
   width: 264px;
-}
+} */
 
 
 .portfolio-title{
@@ -139,9 +139,9 @@ h3 {
     text-align: center;
     color: #2e2f42;
 }
-.portfolio-title img {
+/* .portfolio-title img {
   width: 360px;
-}
+} */
 
 /* footer */
 footer {
