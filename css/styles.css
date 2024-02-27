@@ -39,7 +39,7 @@ h3 {
 }
 
 /* nav */
-.address .a-link {
+.address-link {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -47,7 +47,7 @@ h3 {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address .a-link:focus {
+.address-link:focus {
   color: #404bbf;
 }
 .address {
@@ -61,7 +61,7 @@ h3 {
   color: #2e2f42;
 }
 .nav-link a:hover,
-address a:hover {
+.address-link:hover {
   color: #404bbf;
 }
 .nav-studio:active,
@@ -125,7 +125,9 @@ address a:hover {
 .our-team-li {
   background-color: #FFFFFF;
 }
-
+.our-team img {
+  width: 264px;
+}
 
 
 .portfolio-title{
@@ -137,6 +139,10 @@ address a:hover {
     text-align: center;
     color: #2e2f42;
 }
+.portfolio-title img {
+  width: 360px;
+}
+
 /* footer */
 footer {
   background-color: #2e2f42;;
