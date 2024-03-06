@@ -86,23 +86,23 @@ h3 {
 }
 .slogan {
   background: #2e2f42;
-  /* width: 1440px; */
-    /* height: 600px; */
+  /* qwidth: 1440px; */
+    /* qheight: 600px; */
 }
 .slogan-button {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
-  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
+  /* qbox-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  /* border-radius: 4px; */
-  /* padding: 16px 32px; */
-  /* width: 169px;
-  height: 56px; */
+  /* qborder-radius: 4px; */
+  /* qpadding: 16px 32px; */
+  /* qwidth: 169px;
+  qheight: 56px; */
 }
 .slogan-button:hover,
 .slogan-button:focus
@@ -126,7 +126,7 @@ h3 {
   background-color: #FFFFFF;
 }
 /* .our-team img {
-  width: 264px;
+  qwidth: 264px;
 } */
 
 
@@ -140,7 +140,7 @@ h3 {
     color: #2e2f42;
 }
 /* .portfolio-title img {
-  width: 360px;
+  qwidth: 360px;
 } */
 
 /* footer */
